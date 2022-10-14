@@ -1,0 +1,18 @@
+body {
+    background-color: lightslategray;
+}
+
+h1 {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700px;
+    color: aliceblue;
+}
+
+.calculator {
+    display: flex;
+    width: 500px;
+    height: 750px;
+    border: 2px solid red;
+    margin: auto;
+}
