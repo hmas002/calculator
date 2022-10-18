@@ -11,8 +11,47 @@ h1 {
 
 .calculator {
     display: flex;
+    flex-direction: column;
     width: 500px;
     height: 750px;
     border: 2px solid red;
     margin: auto;
+}
+
+.row {
+    display:flex;
+    flex-basis: 100%;
+    justify-content: center;
+}
+
+.row-display {
+    border: 2px solid black;
+    display:flex;
+    flex-basis: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.results,
+.input {
+    flex: 1;
+    text-align: right;
+    font-size: 42px;
+}
+
+button {
+    display: flex;
+    flex:1;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.7s;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+span {
+    font-size:42px;
 }
